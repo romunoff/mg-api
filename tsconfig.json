@@ -10,7 +10,12 @@
     "target": "ES2021",
     "outDir": "./dist",
     "baseUrl": "./",
-    "paths": {},
+    "paths": {
+      "@common/*": ["src/common/*"],
+      "@configs/*": ["src/configs/*"],
+      "@models/*": ["src/models/*"],
+      "@providers/*": ["src/providers/*"]
+    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
